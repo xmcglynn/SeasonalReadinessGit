@@ -1,0 +1,682 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="Retailers" Id="2420b095-ecb4-498c-b81d-972036b5b63f" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="" ResultsLocale="">
+  <Items>
+    <TransactionTimer Name="Asos_Home">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.asos.com/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Asos_Women">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.asos.com/women/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Asos_Men">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.asos.com/men/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Asos_Sale">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.asos.com/men/sale" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Asos_Search">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://marketplace.asos.com/search" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="q" Value="t+shirts" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="oss_ss" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="mpwa_searchIsSuggested" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Clarks_Home">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.clarks.co.uk/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Clarks_Women">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.clarks.co.uk/womens" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Clark_Men">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.clarks.co.uk/mens" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Clarks_Sale">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.clarks.co.uk/Mens/Sale/c/m197" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="NewLook_Sale">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.newlook.com/shop/sale_10007" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Debenhams_Home">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.debenhams.com/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Debenhams_Women">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.debenhams.com/women" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Debenhams_Men">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.debenhams.com/men" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Debenhams_Sale">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.debenhams.com/sale" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Debenhams_Search">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.debenhams.com/search/t+shirts" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="NewLook_Home">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.newlook.com/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="NewLook_Women">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.newlook.com/shop/womens_10002" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="NewLook_Men">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.newlook.com/shop/mens_10003" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="NewLook_Search">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.newlook.com/shop/womens/_/N-cm2" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="Ntt" Value="t+shirts" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="filtered" Value="1" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Next_Home">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.next.co.uk/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="Ntt" Value="t+shirts" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="filtered" Value="1" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Next_Women">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.next.co.uk/women/new-in" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="Ntt" Value="t+shirts" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="filtered" Value="1" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Next_Men">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.next.co.uk/men/new-in" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="Ntt" Value="t+shirts" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="filtered" Value="1" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Next_Sale">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.next.co.uk/clearance/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="Ntt" Value="t+shirts" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="filtered" Value="1" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Next_Search">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.next.co.uk/search" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="w" Value="t%20shirt" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="isort" Value="score" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="af" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="TopShop_Home">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.topshop.com/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="geoip" Value="home" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="TopShop_Women">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.topshop.com/en/tsuk/category/new-in-this-week-2169932/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="TopShop_Sale">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.topshop.com/en/tsuk/category/sale-offers-4181277" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="TopShop_Search">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.topshop.com/webapp/wcs/stores/servlet/CatalogNavigationSearchResultCmd" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="langId" Value="-1" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="storeId" Value="12556" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="catalogId" Value="33057" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="Dy" Value="1" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="Nty" Value="1" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="beginIndex" Value="1" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="pageNum" Value="1" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="Ntt" Value="t%2Bshirts" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="dimSelected" Value="%2FN-dgl%3FNo%3D0%26Nrpp%3D20%26Ntt%3Dt%252Bshirts%26seo%3Dfalse%26siteId%3D%252F12556%26langId%3D-1%26storeId%3D12556%26catalogId%3D33057%26Dy%3D1%26Nty%3D1%26beginIndex%3D1%26pageNum%3D1" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <Comment CommentText="DP is same design as TopShop?? Flag and report" />
+    <TransactionTimer Name="DorothyPerkins_Home">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.dorothyperkins.com/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="geoip" Value="home" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="DorothyPerkins_Women">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.dorothyperkins.com/en/dpuk/category/new-in-2652762/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="DorothyPerkins_Sale">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.dorothyperkins.com/en/dpuk/category/sale-offers-3422804/view-all-sale-4527816/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="DorothyPerkins_Search">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.dorothyperkins.com/webapp/wcs/stores/servlet/CatalogNavigationSearchResultCmd" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="langId" Value="-1" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="storeId" Value="12552" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="catalogId" Value="33053" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="Dy" Value="1" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="Nty" Value="1" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="beginIndex" Value="1" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="pageNum" Value="1" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="Ntt" Value="t%2Bshirts" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="x" Value="0" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="y" Value="0" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="dimSelected" Value="%2FN-c1y%3FNo%3D0%26Nrpp%3D20%26Ntt%3Dt%252Bshirts%26seo%3Dfalse%26siteId%3D%252F12552%26langId%3D-1%26storeId%3D12552%26catalogId%3D33053%26Dy%3D1%26Nty%3D1%26beginIndex%3D1%26pageNum%3D1%26x%3D0%26y%3D0" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <Comment CommentText="Looks like Matalan use site certs" />
+    <TransactionTimer Name="Matalan_Home">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.matalan.co.uk/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Matalan_Women">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.matalan.co.uk/womens" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Matalan_Men">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.matalan.co.uk/Mens" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Matalan_Sale">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.matalan.co.uk/shop-sale" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Matalan_Search">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.matalan.co.uk/products/search" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="q" Value="t+shirts" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <Comment CommentText="Same as DP and TopShop" />
+    <TransactionTimer Name="TopMan_Home">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.topman.com/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="geoip" Value="home" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="TopMan_Men">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.topman.com/en/tmuk/category/new-in-140500/new-this-week-2394139/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="TopMan_Sale">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.topman.com/en/tmuk/category/clearance-6775178/view-all-sale-2344190/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="TopMan_Search">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.topman.com/webapp/wcs/stores/servlet/CatalogNavigationSearchResultCmd" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="langId" Value="-1" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="storeId" Value="12555" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="catalogId" Value="33056" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="Dy" Value="1" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="Nty" Value="1" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="beginIndex" Value="1" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="pageNum" Value="1" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="Ntt" Value="t%2Bshirts" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="x" Value="0" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="y" Value="0" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="dimSelected" Value="%2FN-7yd%3FNo%3D0%26Nrpp%3D20%26Ntt%3Dt%252Bshirts%26seo%3Dfalse%26siteId%3D%252F12555%26langId%3D-1%26storeId%3D12555%26catalogId%3D33056%26Dy%3D1%26Nty%3D1%26beginIndex%3D1%26pageNum%3D1%26x%3D0%26y%3D0" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Monsoon_Home">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://uk.monsoon.co.uk/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Monsoon_Women">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://uk.monsoon.co.uk/uk/women" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Monsoon_Sale">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://uk.monsoon.co.uk/uk/sale" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Monsoon_Search">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://uk.monsoon.co.uk/view/searches" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="q" Value="t%20shirts" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <Comment CommentText="MossBros uses site certrs" />
+    <TransactionTimer Name="MossBros_Home">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.moss.co.uk/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="MossBros_Mens">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.moss.co.uk/suits" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="MossBros_Sale">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.moss.co.uk/sale" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="MossBros_Search">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.moss.co.uk/search" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="q" Value="t+shirts" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="RiverIsland_Home">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.riverisland.com/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="RiverIsland_Women">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.riverisland.com/women" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="RiverIsland_Men">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.riverisland.com/men" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="RiverIsland_Sale">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.riverisland.com/men/sale/_/N-7rdZk81" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="icid" Value="mu/men/sale/offers" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="RiverIsland_Search">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.riverisland.com/search" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="Ntt" Value="t+shirt" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="SuperDry_Home">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.superdry.com/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="SuperDry_Women">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.superdry.com/womens" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="SuperDry_Men">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.superdry.com/mens" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="SuperDry_Search">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.superdry.com/search/t-shirts" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Txmaxx_Home">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.tkmaxx.com/uk/en/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Txmaxx_Women">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.tkmaxx.com/uk/en/women/c/01000000" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Txmaxx_Men">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.tkmaxx.com/uk/en/men/c/02000000" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Txmaxx_Sale">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.tkmaxx.com/uk/en/clearance/c/05000000" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Txmaxx_Search">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.tkmaxx.com/uk/en/search/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="text" Value="t+shirt" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Boohoo_Home">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.boohoo.com/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Boohoo_Women">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.boohoo.com/womens" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Boohoo_Men">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.boohoo.com/mens" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Boohoo_Sale">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.boohoo.com/mens/sale" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Boohoo_Search">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.boohoo.com/search" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="q" Value="t+shirts" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <Comment CommentText="BP, TS, TM all same" />
+    <TransactionTimer Name="Burton_Home">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.burton.co.uk/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Burton_Men">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.burton.co.uk/en/bruk/category/clothing-281559" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Burton_Sale">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.burton.co.uk/en/bruk/category/sale-offers-1935754" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Burton_Search">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.burton.co.uk/webapp/wcs/stores/servlet/CatalogNavigationSearchResultCmd" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="langId" Value="-1" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="storeId" Value="12551" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="catalogId" Value="33052" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="Dy" Value="1" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="Nty" Value="1" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="beginIndex" Value="1" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="pageNum" Value="1" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="Ntt" Value="t%2Bshirts" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="x" Value="0" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="y" Value="0" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="dimSelected" Value="%2FN-7w1%3FNo%3D0%26Nrpp%3D20%26Ntt%3Dt%252Bshirts%26seo%3Dfalse%26siteId%3D%252F12551%26langId%3D-1%26storeId%3D12551%26catalogId%3D33052%26Dy%3D1%26Nty%3D1%26beginIndex%3D1%26pageNum%3D1%26x%3D0%26y%3D0" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Fatface_Home">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.fatface.com/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Fatface_Women">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.fatface.com/women/icat/womens" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Fatface_Men">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.fatface.com/men/icat/mens" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Fatface_Search">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.fatface.com/page/search" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="q" Value="t+shirts" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="FrenchConnection_Home">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.frenchconnection.com/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="FrenchConnection_Women">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.frenchconnection.com/category/woman/woman.htm" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="FrenchConnection_Men">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.frenchconnection.com/category/man/man.htm" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="FrenchConnection_Sale">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.frenchconnection.com/category/woman-collections-sale/sale.htm" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="FrenchConnection_Search">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.frenchconnection.com/search/keywords-are-t-shirt/t-shirt.htm" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <Comment CommentText="Jack W uses site certs" />
+    <TransactionTimer Name="JackWills_Home">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.jackwills.com/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="JackWills_Women">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.jackwills.com/ladies/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="JackWills_Men">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.jackwills.com/gentlemen/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="JackWills_Sale">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.jackwills.com/sale-and-offers/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="JackWills_Search">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.jackwills.com/search" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="q" Value="t+shirts" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="MrPorter_Home">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.mrporter.com/en-gb" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="MrPorter_Men">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.mrporter.com/en-gb/mens/whats-new" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="MrPorter_Sale">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.mrporter.com/en-gb/mens/sale/all" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="MrPorter_Search">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.mrporter.com/mens/search" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="keywords" Value="t+shirts" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="NetAPorter_Home">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.net-a-porter.com/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="NetAPorter_Women">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.net-a-porter.com/gb/en/d/Shop/Whats-New/Now" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="cm_sp" Value="topnav-_-whatsnew-_-topbar" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="NetAPorter_Sale">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.net-a-porter.com/gb/en/d/Shop/Sale/All" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="cm_sp" Value="topnav-_-sale-_-topbar" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="NetAPorter_Search">
+      <Items>
+        <Request Method="GET" Guid="148e7115-e52a-4b23-b8fb-f9ddf2b1d9ff" Version="1.1" Url="https://www.net-a-porter.com/gb/en/Shop/Search" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="keywords" Value="t+shirts" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="termUsed" Value="t+shirts" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Amazon_Home">
+      <Items>
+        <Request Method="GET" Guid="c58698e5-5e08-4dac-bdec-5fa19a5450d1" Version="1.1" Url="https://www.amazon.co.uk/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Netflix_Home">
+      <Items>
+        <Request Method="GET" Guid="c58698e5-5e08-4dac-bdec-5fa19a5450d1" Version="1.1" Url="https://www.netflix.com/gb/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="Apple_Home">
+      <Items>
+        <Request Method="GET" Guid="c58698e5-5e08-4dac-bdec-5fa19a5450d1" Version="1.1" Url="https://www.apple.com/uk/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+      </Items>
+    </TransactionTimer>
+  </Items>
+  <WebTestPlugins>
+    <WebTestPlugin Classname="SampleWebTestRules.WebTestDependentFilter, SeasonalReadiness, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DisplayName="WebTestDependentFilter" Description="">
+      <RuleParameters>
+        <RuleParameter Name="FilterDependentRequestsThatStartWith" Value="" />
+        <RuleParameter Name="FilterDependentRequestsThatEndWith" Value="tracking.tcpl.min.js" />
+        <RuleParameter Name="FilterDependentRequestsThatContain" Value="dd-m@.jpg?" />
+      </RuleParameters>
+    </WebTestPlugin>
+    <WebTestPlugin Classname="SampleWebTestRules.WebTestDependentFilter, SeasonalReadiness, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DisplayName="WebTestDependentFilter" Description="">
+      <RuleParameters>
+        <RuleParameter Name="FilterDependentRequestsThatStartWith" Value="https://secure.comodo.net/" />
+        <RuleParameter Name="FilterDependentRequestsThatEndWith" Value=".css" />
+        <RuleParameter Name="FilterDependentRequestsThatContain" Value="@.jpeg?" />
+      </RuleParameters>
+    </WebTestPlugin>
+    <WebTestPlugin Classname="SampleWebTestRules.WebTestDependentFilter, SeasonalReadiness, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DisplayName="WebTestDependentFilter" Description="">
+      <RuleParameters>
+        <RuleParameter Name="FilterDependentRequestsThatStartWith" Value="https://ad.doubleclick.net/" />
+        <RuleParameter Name="FilterDependentRequestsThatEndWith" Value="medium.png" />
+        <RuleParameter Name="FilterDependentRequestsThatContain" Value="" />
+      </RuleParameters>
+    </WebTestPlugin>
+    <WebTestPlugin Classname="SampleWebTestRules.WebTestDependentFilter, SeasonalReadiness, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DisplayName="WebTestDependentFilter" Description="">
+      <RuleParameters>
+        <RuleParameter Name="FilterDependentRequestsThatStartWith" Value="https://fls-eu.amazon.co.uk/" />
+        <RuleParameter Name="FilterDependentRequestsThatEndWith" Value="" />
+        <RuleParameter Name="FilterDependentRequestsThatContain" Value="" />
+      </RuleParameters>
+    </WebTestPlugin>
+  </WebTestPlugins>
+</WebTest>
