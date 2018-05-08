@@ -654,7 +654,7 @@
       <RuleParameters>
         <RuleParameter Name="FilterDependentRequestsThatStartWith" Value="" />
         <RuleParameter Name="FilterDependentRequestsThatEndWith" Value="tracking.tcpl.min.js" />
-        <RuleParameter Name="FilterDependentRequestsThatContain" Value="dd-m@.jpg?" />
+        <RuleParameter Name="FilterDependentRequestsThatContain" Value="/dd-m@.jpg?" />
       </RuleParameters>
     </WebTestPlugin>
     <WebTestPlugin Classname="SampleWebTestRules.WebTestDependentFilter, SeasonalReadiness, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DisplayName="WebTestDependentFilter" Description="">
@@ -668,12 +668,19 @@
       <RuleParameters>
         <RuleParameter Name="FilterDependentRequestsThatStartWith" Value="https://ad.doubleclick.net/" />
         <RuleParameter Name="FilterDependentRequestsThatEndWith" Value="medium.png" />
-        <RuleParameter Name="FilterDependentRequestsThatContain" Value="" />
+        <RuleParameter Name="FilterDependentRequestsThatContain" Value="BobbiBrown" />
       </RuleParameters>
     </WebTestPlugin>
     <WebTestPlugin Classname="SampleWebTestRules.WebTestDependentFilter, SeasonalReadiness, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DisplayName="WebTestDependentFilter" Description="">
       <RuleParameters>
         <RuleParameter Name="FilterDependentRequestsThatStartWith" Value="https://fls-eu.amazon.co.uk/" />
+        <RuleParameter Name="FilterDependentRequestsThatEndWith" Value="" />
+        <RuleParameter Name="FilterDependentRequestsThatContain" Value="" />
+      </RuleParameters>
+    </WebTestPlugin>
+    <WebTestPlugin Classname="SampleWebTestRules.WebTestDependentFilter, SeasonalReadiness, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DisplayName="WebTestDependentFilter" Description="">
+      <RuleParameters>
+        <RuleParameter Name="FilterDependentRequestsThatStartWith" Value="https://sana.superdry.com/" />
         <RuleParameter Name="FilterDependentRequestsThatEndWith" Value="" />
         <RuleParameter Name="FilterDependentRequestsThatContain" Value="" />
       </RuleParameters>
